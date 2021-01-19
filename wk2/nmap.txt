@@ -1,0 +1,45 @@
+nmap georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 14:52 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.0087s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.41 seconds
+
+nmap -p 1 apple.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 14:54 UTC
+Nmap scan report for apple.ca (17.253.144.10)
+Host is up (0.011s latency).
+rDNS record for 17.253.144.10: www.icmoud.com
+
+PORT  STATE    SERVICE
+1/tcp filtered tcpmux
+
+Nmap done: 1 IP address (1 host up) scanned in 11.29 seconds
+
+nmap -p 1-100 microsoft.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 14:56 UTC
+Nmap scan report for microsoft.ca (104.215.148.63)
+Host is up (0.23s latency).
+Other addresses for microsoft.ca (not scanned): 40.76.4.15 40.112.72.205 40.113.200.201 13.77.161.179
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 17.24 seconds
+
+nmap -F nintendo.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-19 14:58 UTC
+Nmap scan report for nintendo.ca (205.166.76.139)
+Host is up (0.061s latency).
+Not shown: 98 filtered ports
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+
+Nmap done: 1 IP address (1 host up) scanned in 13.31 seconds

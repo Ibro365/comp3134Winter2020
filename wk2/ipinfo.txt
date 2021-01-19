@@ -1,0 +1,29 @@
+Domain: Instagram.ca
+
+IP Address: 157.240.2.20
+
+Geolocation: US (United States), CA, California, 94025 Menlo Park - Google Maps
+
+Domain: Playstation.com
+
+IP Address: 209.200.152.199
+
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge - Google Maps
+
+Domain: Xbox.com
+
+IP Address: 40.76.4.15
+
+Geolocation: US (United States), VA, Virginia, 23917 Boydton - Google Maps
+
+Domain: Nintendo.ca
+
+IP Address: 205.166.76.139
+
+Geolocation: US (United States), WA, Washington, 98052 Redmond - Google Maps
+
+Domain: Snapchat.com
+
+IP Address: 216.239.36.21
+
+Geolocation: US (United States), CA, California, 94608 Emeryville - Google Maps
