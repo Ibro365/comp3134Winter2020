@@ -1,0 +1,3 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# service sshd stop
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# service sshd start
+(base) ibrahim@Ibrahims-MacBook-Pro ~ % ssh root@134.122.43.237 -p 2222
