@@ -1,0 +1,23 @@
+tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+23:57:30.798907 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 3220083049:3220083117, ack 965380279, win 501, options [nop,nop,TS val 287177752 ecr 2168969067], length 68
+23:57:30.800273 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 68:112, ack 1, win 501, options [nop,nop,TS val 287177754 ecr 2168969067], length 44
+23:57:30.800319 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 112:220, ack 1, win 501, options [nop,nop,TS val 287177754 ecr 2168969067], length 108
+23:57:30.800358 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 220:256, ack 1, win 501, options [nop,nop,TS val 287177754 ecr 2168969067], length 36
+23:57:30.803959 IP 119.28.239.30.48608 > 134.122.43.237.ssh: Flags [.], ack 3266930465, win 229, options [nop,nop,TS val 407642817 ecr 221814415], length 0
+23:57:30.809073 IP 119.28.239.30.48608 > 134.122.43.237.ssh: Flags [P.], seq 0:21, ack 1, win 229, options [nop,nop,TS val 407642822 ecr 221814415], length 21
+23:57:30.809092 IP 134.122.43.237.ssh > 119.28.239.30.48608: Flags [.], ack 21, win 510, options [nop,nop,TS val 221814615 ecr 407642822], length 0
+23:57:30.810313 IP 134.122.43.237.ssh > 119.28.239.30.48608: Flags [P.], seq 1:1057, ack 21, win 510, options [nop,nop,TS val 221814617 ecr 407642822], length 1056
+23:57:30.813946 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 68, win 21956, options [nop,nop,TS val 2168969086 ecr 287177752], length 0
+23:57:30.813946 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 256, win 21957, options [nop,nop,TS val 2168969087 ecr 287177754], length 0
+23:57:31.016974 IP 119.28.239.30.48608 > 134.122.43.237.ssh: Flags [P.], seq 21:461, ack 1057, win 245, options [nop,nop,TS val 407643030 ecr 221814617], length 440
+23:57:31.017024 IP 134.122.43.237.ssh > 119.28.239.30.48608: Flags [.], ack 461, win 507, options [nop,nop,TS val 221814823 ecr 407643030], length 0
+23:57:31.212722 IP 119.28.239.30.48608 > 134.122.43.237.ssh: Flags [P.], seq 461:509, ack 1057, win 245, options [nop,nop,TS val 407643225 ecr 221814823], length 48
+23:57:31.212757 IP 134.122.43.237.ssh > 119.28.239.30.48608: Flags [.], ack 509, win 507, options [nop,nop,TS val 221815019 ecr 407643225], length 0
+23:57:31.217673 IP 134.122.43.237.ssh > 119.28.239.30.48608: Flags [P.], seq 1057:1337, ack 509, win 507, options [nop,nop,TS val 221815024 ecr 407643225], length 280
+23:57:31.419672 IP 119.28.239.30.48608 > 134.122.43.237.ssh: Flags [P.], seq 509:525, ack 1337, win 262, options [nop,nop,TS val 407643432 ecr 221815024], length 16
+23:57:31.419730 IP 134.122.43.237.ssh > 119.28.239.30.48608: Flags [.], ack 525, win 507, options [nop,nop,TS val 221815226 ecr 407643432], length 0
+23:57:31.615381 IP 119.28.239.30.48608 > 134.122.43.237.ssh: Flags [P.], seq 525:577, ack 1337, win 262, options [nop,nop,TS val 407643628 ecr 221815226], length 52
+23:57:31.615416 IP 134.122.43.237.ssh > 119.28.239.30.48608: Flags [.], ack 577, win 507, options [nop,nop,TS val 221815422 ecr 407643628], length 0
+23:57:31.615522 IP 134.122.43.237.ssh > 119.28.239.30.48608: Flags [P.], seq 1337:1389, ack 577, win 507, options [nop,nop,TS val 221815422 ecr 407643628], length 52
+855347, win 0, length 0

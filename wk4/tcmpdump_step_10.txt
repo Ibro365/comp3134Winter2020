@@ -1,0 +1,50 @@
+tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+00:17:06.067157 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 3251181965:3251182073, ack 965401379, win 501, options [nop,nop,TS val 288353020 ecr 2170133338], length 108
+00:17:06.067223 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 288353021 ecr 2170133338], length 36
+00:17:06.067273 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 144:252, ack 1, win 501, options [nop,nop,TS val 288353021 ecr 2170133338], length 108
+00:17:06.067309 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 288353021 ecr 2170133338], length 36
+00:17:06.083534 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 0, win 21957, options [nop,nop,TS val 2170133360 ecr 288353015], length 0
+00:17:06.083534 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 252, win 21955, options [nop,nop,TS val 2170133365 ecr 288353021], length 0
+00:17:06.083534 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 288, win 21955, options [nop,nop,TS val 2170133365 ecr 288353021], length 0
+00:17:06.094310 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 288:556, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 268
+00:17:06.094373 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 556:592, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 36
+00:17:06.094405 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 592:836, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 244
+00:17:06.094433 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 836:872, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 36
+00:17:06.094470 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 872:1116, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 244
+00:17:06.094496 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 1116:1152, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 36
+00:17:06.094534 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 1152:1396, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 244
+00:17:06.094562 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 1396:1432, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 36
+00:17:06.094599 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 1432:1660, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 228
+00:17:06.094624 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 1660:1696, ack 1, win 501, options [nop,nop,TS val 288353048 ecr 2170133365], length 36
+00:17:06.106446 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 556, win 21953, options [nop,nop,TS val 2170133389 ecr 288353048], length 0
+00:17:06.106446 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 1696, win 21944, options [nop,nop,TS val 2170133391 ecr 288353048], length 0
+00:17:06.106498 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 1696:4592, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133389], length 2896
+00:17:06.106542 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 4592:5024, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 432
+00:17:06.106656 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 5024:5252, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 228
+00:17:06.106692 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 5252:5288, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 36
+00:17:06.106731 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 5288:5516, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 228
+00:17:06.106758 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 5516:5552, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 36
+00:17:06.106795 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 5552:5796, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 244
+00:17:06.106821 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 5796:5832, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 36
+00:17:06.106856 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 5832:6076, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 244
+00:17:06.106884 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 6076:6112, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 36
+00:17:06.106918 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 6112:6356, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 244
+00:17:06.106954 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 6356:6392, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 36
+00:17:06.106989 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 6392:6636, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 244
+00:17:06.107016 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 6636:6672, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 36
+00:17:06.107051 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 6672:6916, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 244
+00:17:06.107079 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 6916:6952, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 36
+00:17:06.107114 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 6952:7196, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 244
+00:17:06.107141 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 7196:7232, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 36
+00:17:06.107176 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 7232:7476, ack 1, win 501, options [nop,nop,TS val 288353060 ecr 2170133391], length 244
+00:17:06.118735 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 7476, win 21949, options [nop,nop,TS val 2170133402 ecr 288353060], length 0
+00:17:06.118794 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 7476:10872, ack 1, win 501, options [nop,nop,TS val 288353072 ecr 2170133402], length 3396
+00:17:06.118941 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 10872:11100, ack 1, win 501, options [nop,nop,TS val 288353072 ecr 2170133402], length 228
+00:17:06.118982 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 11100:11136, ack 1, win 501, options [nop,nop,TS val 288353072 ecr 2170133402], length 36
+00:17:06.119026 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 11136:11380, ack 1, win 501, options [nop,nop,TS val 288353072 ecr 2170133402], length 244
+00:17:06.119053 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 11380:11416, ack 1, win 501, options [nop,nop,TS val 288353072 ecr 2170133402], length 36
+2794 packets captured
+2804 packets received by filter
+10 packets dropped by kernel

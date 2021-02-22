@@ -1,0 +1,20 @@
+tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:42:43.331683 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 3190559769, win 2047, options [nop,nop,TS val 2168089864 ecr 286290271], length 0
+23:42:43.332413 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 1:109, ack 0, win 501, options [nop,nop,TS val 286290286 ecr 2168089864], length 108
+23:42:43.332484 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 109:145, ack 0, win 501, options [nop,nop,TS val 286290286 ecr 2168089864], length 36
+23:42:43.332493 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 145:253, ack 0, win 501, options [nop,nop,TS val 286290286 ecr 2168089864], length 108
+23:42:43.332520 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 253:289, ack 0, win 501, options [nop,nop,TS val 286290286 ecr 2168089864], length 36
+23:42:43.333540 IP 134.122.43.237.35341 > dns.google.domain: 26914+ PTR? 237.43.122.134.in-addr.arpa. (45)
+23:42:43.349781 IP cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751 > 134.122.43.237.ssh: Flags [.], ack 289, win 2043, options [nop,nop,TS val 2168089880 ecr 286290286], length 0
+23:42:43.356708 IP dns.google.domain > 134.122.43.237.35341: 26914 NXDomain 0/1/0 (112)
+23:42:43.356914 IP 134.122.43.237.36332 > dns.google.domain: 12569+ PTR? 245.86.231.99.in-addr.arpa. (44)
+23:42:43.374968 IP dns.google.domain > 134.122.43.237.36332: 12569 1/0/0 PTR cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com. (113)
+23:42:43.375194 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 289:525, ack 0, win 501, options [nop,nop,TS val 286290328 ecr 2168089880], length 236
+23:42:43.375268 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 525:561, ack 0, win 501, options [nop,nop,TS val 286290329 ecr 2168089880], length 36
+23:42:43.375300 IP 134.122.43.237.ssh > cpe9050cab0d503-cm9050cab0d500.cpe.net.cable.rogers.com.52751: Flags [P.], seq 561:805, ack 0, win 501, options [nop,nop,TS val 286290329 ecr 2168089880], length 244
+^C
+37635 packets captured
+37644 packets received by filter
+8 packets dropped by kernel
