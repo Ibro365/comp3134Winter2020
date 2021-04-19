@@ -1,0 +1,2 @@
+strip_tags will remove all HTML tags
+htmlentities will encode characters which are special characters in HTML

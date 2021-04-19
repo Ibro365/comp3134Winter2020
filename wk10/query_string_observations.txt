@@ -1,0 +1,4 @@
+1. it changed the param query when searching a different word.
+2. it wasn't able to find the word as it was invalid
+3. the script wasn't executed as it was form input box was sanitized
+4. It had returned a 404 error as again it has sanitized its input
